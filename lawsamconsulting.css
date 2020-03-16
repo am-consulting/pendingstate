@@ -1,0 +1,63 @@
+/* body */
+body {
+  background-image: url("../backgroundimages/backimage-funenokagakukan001.jpg");
+}
+
+
+/* datatables */
+.dataTables_wrapper .dataTables_filter {
+  float: left;
+  text-align: right;
+}
+.dataTables_wrapper .dataTables_paging {
+  float: right;
+  text-align: right;
+}
+.dataTables_wrapper .dataTables_length {
+  float: left;
+}
+.dataTables_wrapper .dataTables_info {
+  float: right;
+  text-align: right;
+}
+
+
+/* note link */
+#noteRight,#noteLeft,#linkRight,#linkLeft {
+	word-break: break-all;
+	height: 65vh;
+	overflow: auto;
+ }
+
+
+/* table */
+table th{
+	white-space: nowrap;
+}
+
+table.laws td:nth-child(2),table.laws td:nth-child(3) {
+	text-align:left;
+}
+
+table.lawdatatablesindex td:nth-child(1),table.lawdatatablesindex td:nth-child(4),table.lawdatatablesindex td:nth-child(5){
+	white-space: nowrap;
+}
+table.lawdatatablesindex td:nth-child(1){
+	text-align:right;
+}
+
+table.lawdatatables td:nth-child(1){
+	white-space: nowrap;
+	text-align:right;
+}
+
+table.lawdatatables table.amccTable {
+	border-collapse: collapse;
+}
+table.lawdatatables table.amccTable td {
+	text-align:left;
+	white-space:normal;
+}
+table.lawdatatables table.amccTable,table.lawdatatables table.amccTable th,table.lawdatatables table.amccTable td {
+	border: solid 1px black;
+}

@@ -1,0 +1,497 @@
+/* body */
+body {
+  background-color: #ffffff;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.main-container {
+  max-width: 95%;
+}
+
+
+/* caption */
+p.caption {
+  color: black;
+  font-size: 120%;
+}
+table > caption {
+  color : black;
+}
+
+
+/* title author subtitle */
+h1.title {
+  text-align: center;
+  color: black;
+  font-size:2.0em;
+  font-weight:bolder;
+}
+h4.author,h4.date {
+  color: black;
+  font-size:1.1em;
+
+}
+h3.subtitle{
+  text-align: center;
+  font-size: 1.1em;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* div */
+div.overflow-x {
+	white-space : nowrap;
+	overflow: auto;
+}
+div.btnmenu {
+	white-space : nowrap;
+	overflow-x : auto;
+ }
+div.commentText {
+	color: black;
+	border: solid 1px #364e96;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	background-color: rgba(255,255,255,0.1);
+	margin: 10px 0px;
+	word-break: break-all;
+}
+div.commentTextChapter {
+	color: black;
+	border: solid 1px #364e96;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	background-color: rgba(192,192,192,0.1);
+	margin: 10px 0px;
+	word-break: break-all;
+}
+
+
+/* return top */
+#myBtn {
+  display: none;         /* Hidden by default */
+  position: fixed;       /* Fixed/sticky position */
+  bottom: 20px;          /* Place the button at the bottom of the page */
+  right: 30px;           /* Place the button 30px from the right */
+  z-index: 99;           /* Make sure it does not overlap */
+  border: none;          /* Remove borders */
+  outline: none;         /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white;          /* Text color */
+  cursor: pointer;       /* Add a mouse pointer on hover */
+  padding: 15px;         /* Some padding */
+  border-radius: 10px;   /* Rounded corners */
+  font-size: 18px;       /* Increase font size */
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/* responsive font size */
+@media (min-width: 320px) and (max-width: 1000px) {
+  /* https://coliss.com/articles/build-websites/operation/css/font-size-value-for-responsive.html */
+  /* https://qiita.com/torosalmon/items/857ffdc663884e454b36 */
+  h1 {
+    font-size: calc( 1.5rem + 16 * (100vw - 320px) / (1000 - 320) ) !important;
+    line-height: calc( 120% + 3.2 * (100vw - 1000px) / (320 - 1000) ) !important;
+  }
+  h2 {
+    font-size: calc( 1.45rem + 16 * (100vw - 320px) / (1000 - 320) ) !important;
+  }
+  h3 {
+    font-size: calc( 1.0rem + 16 * (100vw - 320px) / (1000 - 320) ) !important;
+  }
+}
+
+
+/* moment.js */
+.time-frame {
+    color: #000000;
+    width: 100%;
+    font-family: Consolas;
+}
+.time-frame > div {
+    width: 100%;
+    text-align: center;
+}
+div.momentjs{
+  font-family: Consolas;
+  width: 100%;
+  text-align: left !important;
+}
+div#date-part{
+  font-size: 1.1em !important;
+  float: left !important;
+  margin-right: 5px !important;
+}
+div#time-part{
+  font-size: 1.1em !important;
+}
+
+
+/* hr */
+hr.bar1 {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #696969;
+  border: 0;
+}
+hr.bar2 {
+  display:block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  border-top: 1px dashed #cccccc;
+}
+hr.bar3 {
+  display:block;
+  width: 100%;
+  height: 10px;
+  border: 0;
+  border: 1px solid #cacaca;
+  -webkit-border-radius: 10px;
+  background: #005500; /* Old browsers */
+  background: -moz-linear-gradient(left,  #005500 0%, #52b152 20%, #83c783 51%, #008a00 76%, #005500 96%, #005700 100%, #005500 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#005500), color-stop(20%,#52b152), color-stop(51%,#83c783), color-stop(76%,#008a00), color-stop(96%,#005500), color-stop(100%,#005700), color-stop(100%,#005500)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #005500 0%,#52b152 20%,#83c783 51%,#008a00 76%,#005500 96%,#005700 100%,#005500 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to right,  #005500 0%,#52b152 20%,#83c783 51%,#008a00 76%,#005500 96%,#005700 100%,#005500 100%); /* W3C */
+}
+hr.invisible {
+  width: 100%;
+  height: 0px;
+  border: 0;
+}
+
+
+/* table */
+/* amcc01 */
+table.amcc01 {
+  border-spacing: 0;
+  font-size:0.9em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  border-collapse: collapse;
+  border: solid 1px black;
+  white-space : nowrap;
+  overflow-x : auto;
+}
+/* th */
+table.amcc01 th {
+  color: #fff;
+  padding: 4px 10px;
+  background: #258;
+  background:-moz-linear-gradient(rgba(34,85,136,0.7), rgba(34,85,136,0.9) 50%);
+  background:-webkit-gradient(linear, 100% 0%, 100% 50%, from(rgba(34,85,136,0.7)), to(rgba(34,85,136,0.9)));
+  font-weight: bold;
+  border-left:1px solid #258;
+  border-top:1px solid #258;
+  border-bottom:1px solid #258;
+  line-height: 110%;
+  text-align: center;
+  text-shadow:0 -1px 0 rgba(34,85,136,0.9);
+  box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+}
+table.amcc01 th:first-child {
+  border-radius: 5px 0 0 0; 
+}
+table.amcc01 th:last-child {
+  border-radius:0 5px 0 0;
+  border-right:1px solid #258;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1),0px 1px 1px rgba(255,255,255,0.3) inset;
+}
+/* tr */
+table.amcc01 tr {
+  background: #fff;
+}
+table.amcc01 tr td {
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid #84b2e0;
+  border-left: 1px solid #84b2e0;
+}
+table.amcc01 tr td:last-child {
+  border-right: 1px solid #84b2e0;
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+table.amcc01 tr:nth-child(2n+1) {
+  background: #f1f6fc;
+}
+table.amcc01 tr:last-child td {
+  box-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
+table.amcc01 tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+table.amcc01 tr:last-child td:last-child {
+  border-radius: 0 0 5px 0;
+}
+table.amcc01 tr:hover {
+  background: #bbd4ee;
+  cursor:pointer;
+}
+/* td */
+table.amcc01 td.negative {
+  color: red;
+}
+
+
+/* menu img */
+img.menu {
+  width:23%;
+  margin: 2px;
+  border:2px solid #CCC;
+  border-radius:10px;
+}
+@media screen and (max-width: 700px) {
+  img.menu {
+	width:100%;
+	margin: 2px;
+	border:2px solid #CCC;
+	border-radius:10px;
+  }
+}
+
+
+/* link menu and contact.am-consulting*/
+div#amccmenu{
+  text-align:center;
+}
+table#amccmenutable {
+  display: inline-block;
+}
+table#amccmenutable td, th {
+  padding: 10px 10px;
+}
+
+
+/* aboutus notice disclaimer contact */
+#disclaimerLeft,#disclaimerRight,#amcctabLeft,#amcctabRight,#noticeLeft,#noticeRight,#contactLeft,#contactRight {
+  word-break: break-all;
+  height: 65vh;
+  overflow: auto;
+ }
+#aboutusLeft,#aboutusRight {
+  word-break: break-all;
+  height: 70vh;
+  overflow: auto;
+ }
+#wholewide {
+  word-break: break-all;
+  overflow: auto;
+ }
+
+ 
+ /* image */
+img {
+	border:1px solid #CCC;
+	border-radius:10px;
+	width: auto;
+}
+img.imgscroll {
+	display: inline !important;
+	margin: 0px;
+	padding: 0px;
+	vertical-align:middle;
+	width: auto;
+}
+div.imgscrollcontainer {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 0px;
+	height: auto;
+	max-width: auto;
+	overflow-y: hidden;
+	overflow-x:auto;
+	word-wrap:normal;
+	white-space:nowrap;
+	text-align: center;
+}
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background: #eee;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: gray;
+}
+
+
+/* pre and code */
+pre,code {
+  font-family: Consolas, 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Monaco, monospace, 'MS Gothic';
+  overflow-x: auto !important;
+  word-wrap: normal !important;
+  white-space: pre !important;
+  text-align:left !important;
+  /* background-color: transparent !important; */
+  background-color: rgba(236,240,241,0.1) !important;
+}
+pre.r {
+  background-color: rgba(123,138,139,0.1) !important;
+}
+
+
+/* math */
+span.math{
+  font-size:100%;
+}
+
+
+/* map */
+iframe.mapframe{ 
+  border:1px solid #CCC;
+  border-radius:10px;
+}
+@media screen and (max-width: 1000px) {
+  iframe.mapframe{ 
+    width:100%;
+  }
+}
+
+
+/* h */
+h3,h5,h6 {
+	font-weight: bold;
+}
+
+
+/* https://codepen.io/Creaticode/pen/ecAmo http://photoshopvip.net/97481 */
+.accordion {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	margin: 1px;
+	background: rgba(105,105,105,0.1);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center;
+}
+.accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 15px 15px 15px 42px;
+	color: #black;
+	font-size: 18px;
+	font-weight: 600;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.accordion li:last-child .link {
+	border-bottom: 0px;
+}
+.accordion li i {
+	position: absolute;
+	top: 16px;
+	left: 12px;
+	font-size: 18px;
+	color: black;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.accordion li i.fa-chevron-down {
+	right: 12px;
+	left: auto;
+	font-size: 16px;
+}
+.accordion li.open .link {
+	color: rgba(255,0,0,0.8);
+}
+.accordion li.open i {
+	color: rgba(255,0,0,0.8);
+}
+.accordion li.open i.fa-chevron-down {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.accordion li.default .submenu {
+	display: block;
+}
+ul.accordion {
+	list-style-type: none;
+}
+
+
+
+.submenu {
+	display: none;
+	background: rgba(255,255,255,0.3);
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.submenu li {
+	border-bottom: 0px solid #4b4a5e;
+}
+.submenu a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 12px;
+	-webkit-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+.submenu a:hover {
+	background: rgba(0,0,128,0.2);
+	color: #fff;
+}
+ul.submenu {
+	list-style-type: none;
+}
+
+
+/* https://design.webclips.jp/youtube-movie-size/ */
+/* https://muumv.com/youtube/ */
+#youtube-movie {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1300px; /* 最大の横幅 */
+/*	padding: 0.2em;
+	border: solid 1px #364e96;
+	border-radius: 0.5em; */
+}
+#youtube-movie-content {
+	padding-top: 56.25%;
+	position: relative;
+	width: 100%;
+}
+#youtube-movie-content iframe {
+	height: 100% !important;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100% !important;
+}
+
+/* datatables */
+table.display{
+	width:70%;
+	margin: 0 auto;
+}
+@media only screen and (max-width: 1300px),(min-device-width: 768px) and (max-device-width: 1024px)  {
+	table.display{
+		width:100%;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,36 @@
+/* body */
+body {
+  background-image: url("../backgroundimages/backimage-odaiba001.JPG");
+}
+
+
+/* datatables */
+/*
+.dataTables_wrapper .dataTables_filter {
+  float: left;
+  text-align: right;
+}
+.dataTables_wrapper .dataTables_paging {
+  float: right;
+  text-align: right;
+}
+.dataTables_wrapper .dataTables_length {
+  float: left;
+}
+.dataTables_wrapper .dataTables_info {
+  float: right;
+  text-align: right;
+}
+table.amccdatatables {
+  white-space : nowrap;
+  overflow-x : auto;
+}
+*/
+
+/* dygraphs */
+/*
+.dygraph-legend {
+  background: transparent !important;
+  text-align: right !important;
+}
+*/

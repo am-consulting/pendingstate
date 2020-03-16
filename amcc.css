@@ -1,0 +1,40 @@
+/* body */
+body {
+  background-image: url("../backgroundimages/backimage-kaimei-2020.JPG");
+}
+
+/* datatables */
+/*
+.dataTables_wrapper .dataTables_filter {
+  float: left;
+  text-align: right;
+}
+.dataTables_wrapper .dataTables_paging {
+  float: right;
+  text-align: right;
+}
+.dataTables_wrapper .dataTables_length {
+  float: left;
+}
+.dataTables_wrapper .dataTables_info {
+  float: right;
+  text-align: right;
+}
+table.amccdatatables {
+  white-space : nowrap;
+  overflow-x : auto;
+}
+*/
+
+/* dygraphs */
+/*https://rstudio.github.io/dygraphs/gallery-css-styling.html*/
+/*http://dygraphs.com/css.html*/
+/*
+.dygraph-legend {
+  background: transparent !important;
+  text-align: right !important;
+}
+.dygraph-title{
+  font-size:90%;
+}
+*/
